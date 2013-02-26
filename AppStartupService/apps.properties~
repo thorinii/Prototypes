@@ -1,0 +1,37 @@
+# Define a program with:
+#  program.cmd=/bin/cmd
+#  program.condition=nyyyyyn
+#
+# .condition is a map of the week.
+#  n = don't boot
+#  y = boot
+#  one n = never
+#  one y = always
+gnomepanel.cmd=/usr/bin/gnome-panel
+gnomepanel.condition=y
+gnomepanel.order=0
+
+gnomesound.cmd=/usr/bin/gnome-sound-applet
+gnomesound.condition=y
+gnomesound.order=5
+gnomesound.wait=n
+
+skype.cmd=/usr/bin/skype
+skype.condition=nyyyyyn
+skype.order=1
+
+timetracker.cmd=/usr/bin/java -jar /home/lachlan/Desktop/Programming/projects/FVTimeTracker/FVTimeTracker.sh -hide
+timetracker.working=/home/lachlan/Desktop/Programming/projects/FVTimeTracker/
+timetracker.condition=y
+timetracker.order=2
+
+dropbox.cmd=/usr/bin/dropbox start -i
+dropbox.working=/home/lachlan/
+dropbox.condition=nyyyyyn
+dropbox.order=3
+dropbox.wait=n
+
+gnomeclassicmenu.cmd=/usr/bin/classicmenu-indicator
+gnomeclassicmenu.condition=y
+gnomeclassicmenu.order=4
+gnomeclassicmenu.wait=n

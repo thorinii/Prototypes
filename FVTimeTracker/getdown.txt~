@@ -1,0 +1,13 @@
+# URL where it will be downloaded from
+appbase = http://labs.flipsidevirtual.com.au/fvtimetracker/
+
+ui.name = Flipside Virtual Time Tracker
+
+code = dist/FVTimeTracker.jar
+code = dist/lib/h2-1.3.168.jar
+code = dist/lib/jcommon-1.0.17.jar
+code = dist/lib/jfreechart-1.0.14.jar
+
+class = fvtimetracker.Main
+
+allow_offline = true

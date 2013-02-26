@@ -1,0 +1,9 @@
+#! /bin/sh
+
+#ant jar
+
+cp ./dist/FVTimeTracker.jar ./
+
+cp ./dist/lib/* ./lib/
+
+chmod a+x FVTimeTracker.jar
